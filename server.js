@@ -6,6 +6,7 @@ const cookieParser = require("cookie-parser");
 const SocketServer = require("./socketServer");
 const { ExpressPeerServer } = require("peer");
 const path = require("path");
+const { log } = require("console");
 
 const app = express();
 app.use(express.json());
